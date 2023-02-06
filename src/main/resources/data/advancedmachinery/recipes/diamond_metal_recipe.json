@@ -1,0 +1,19 @@
+{
+  "group": "advanced_machinery",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "advancedmachinery:ingot_1",
+    "count": 2
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "advancedmachinery:blocks/diamondmetalblock",
+    "up": "advancedmachinery:blocks/diamondmetalblock",
+    "north": "advancedmachinery:blocks/diamondmetalblock",
+    "east": "advancedmachinery:blocks/diamondmetalblock",
+    "south": "advancedmachinery:blocks/diamondmetalblock",
+    "west": "advancedmachinery:blocks/diamondmetalblock",
+    "particle": "advancedmachinery:blocks/diamondmetalblock"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,42 @@
+{
+  "group": "advancedmachinery",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "1": {
+      "item": "advancedmachinery:diamond_rod"
+    },
+    "2": {
+      "item": "minecraft:diamond"
+    },
+    "3": {
+      "item": "advancedmachinery:diamond_rod"
+    },
+    "4": {
+      "item": "advancedmachinery:iron_machine_casing"
+    },
+    "5": {
+      "item": "advancedmachinery:diamond_rod"
+    },
+    "6": {
+      "item": "minecraft:diamond"
+    },
+    "7": {
+      "item": "advancedmachinery:diamond_rod"
+    },
+    "8": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "advancedmachinery:diamond_machine_casing",
+    "count": 1
+  }
+}

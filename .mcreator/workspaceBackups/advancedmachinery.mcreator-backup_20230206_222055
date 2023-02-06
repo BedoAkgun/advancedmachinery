@@ -1,0 +1,145 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ingot1",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingot_1"
+    },
+    {
+      "name": "DiamondMetalBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_block"
+    },
+    {
+      "name": "DiamondMetalRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_recipe"
+    },
+    {
+      "name": "DiamondMetalToBlock",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_to_block"
+    },
+    {
+      "name": "IronMachineCasing",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_machine_casing"
+    },
+    {
+      "name": "DiamondMachineCasing",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_machine_casing"
+    },
+    {
+      "name": "DiamondMetalMachineCasing",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_machine_casing"
+    },
+    {
+      "name": "IronCasingRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_casing_recipe"
+    },
+    {
+      "name": "IronRod",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_rod"
+    },
+    {
+      "name": "IronRodCrafting",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_rod_crafting"
+    },
+    {
+      "name": "DiamondRod",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_rod"
+    },
+    {
+      "name": "DiamondCasingRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_casing_recipe"
+    },
+    {
+      "name": "DiamondRodRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_rod_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.advancedmachinery.diamond_rod": "Diamond Rod",
+      "block.advancedmachinery.diamond_metal_block": "Diamond Metal Block",
+      "block.advancedmachinery.diamond_machine_casing": "Iron Machine Casing",
+      "item.advancedmachinery.iron_rod": "Iron Rod",
+      "block.advancedmachinery.diamond_metal_machine_casing": "Iron Machine Casing",
+      "block.advancedmachinery.iron_machine_casing": "Iron Machine Casing",
+      "item.dreamybull.ingot_1": "Ingot 1",
+      "item.advancedmachinery.ingot_1": "Diamond Metal Ingot"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "advancedmachinery",
+    "modName": "Advanced Machinery",
+    "version": "1.0.0",
+    "author": "Bedirhan Akgün",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.groupproject.advancedmachinery",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

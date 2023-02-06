@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "advancedmachinery:blocks/ironcasing",
+    "particle": "advancedmachinery:blocks/ironcasing"
+  },
+  "render_type": "cutout_mipped"
+}

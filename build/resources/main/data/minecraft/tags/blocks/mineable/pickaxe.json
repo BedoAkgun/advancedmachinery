@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "advancedmachinery:diamond_metal_block",
+    "advancedmachinery:iron_machine_casing",
+    "advancedmachinery:diamond_machine_casing",
+    "advancedmachinery:diamond_metal_machine_casing"
+  ]
+}

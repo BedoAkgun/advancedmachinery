@@ -1,0 +1,42 @@
+{
+  "group": "advanced_machinery",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "advancedmachinery:ingot_1"
+    },
+    "1": {
+      "item": "advancedmachinery:ingot_1"
+    },
+    "2": {
+      "item": "advancedmachinery:ingot_1"
+    },
+    "3": {
+      "item": "advancedmachinery:ingot_1"
+    },
+    "4": {
+      "item": "advancedmachinery:ingot_1"
+    },
+    "5": {
+      "item": "advancedmachinery:ingot_1"
+    },
+    "6": {
+      "item": "advancedmachinery:ingot_1"
+    },
+    "7": {
+      "item": "advancedmachinery:ingot_1"
+    },
+    "8": {
+      "item": "advancedmachinery:ingot_1"
+    }
+  },
+  "result": {
+    "item": "advancedmachinery:diamond_metal_block",
+    "count": 1
+  }
+}
