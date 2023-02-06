@@ -1,8 +1,11 @@
 {
   "item.advancedmachinery.diamond_rod": "Diamond Rod",
+  "item.advancedmachinery.diamond_metal_sword": "Diamond Metal Sword",
   "block.advancedmachinery.diamond_metal_block": "Diamond Metal Block",
   "block.advancedmachinery.diamond_machine_casing": "Diamond Machine Casing",
   "item.advancedmachinery.iron_rod": "Iron Rod",
+  "item.advancedmachinery.diamond_metal_axe": "Diamond Metal Axe",
+  "item.advancedmachinery.diamond_metal_paxel": "Diamond Metal Paxel",
   "item.advancedmachinery.diamond_metal_rod": "Diamond Metal Rod",
   "item.advancedmachinery.diamond_metal_pickaxe": "Diamond Metal Pickaxe",
   "item.advancedmachinery.diamond_metal_hoe": "Diamond Metal Hoe",

@@ -16,10 +16,13 @@ import net.minecraft.world.item.BlockItem;
 import net.groupproject.advancedmachinery.item.IronRodItem;
 import net.groupproject.advancedmachinery.item.Ingot1Item;
 import net.groupproject.advancedmachinery.item.DiamondRodItem;
+import net.groupproject.advancedmachinery.item.DiamondMetalSwordItem;
 import net.groupproject.advancedmachinery.item.DiamondMetalShovelItem;
 import net.groupproject.advancedmachinery.item.DiamondMetalRodItem;
 import net.groupproject.advancedmachinery.item.DiamondMetalPickaxeItem;
+import net.groupproject.advancedmachinery.item.DiamondMetalPaxelItem;
 import net.groupproject.advancedmachinery.item.DiamondMetalHoeItem;
+import net.groupproject.advancedmachinery.item.DiamondMetalAxeItem;
 import net.groupproject.advancedmachinery.AdvancedmachineryMod;
 
 public class AdvancedmachineryModItems {
@@ -39,6 +42,9 @@ public class AdvancedmachineryModItems {
 	public static final RegistryObject<Item> DIAMOND_METAL_PICKAXE = REGISTRY.register("diamond_metal_pickaxe", () -> new DiamondMetalPickaxeItem());
 	public static final RegistryObject<Item> DIAMOND_METAL_SHOVEL = REGISTRY.register("diamond_metal_shovel", () -> new DiamondMetalShovelItem());
 	public static final RegistryObject<Item> DIAMOND_METAL_HOE = REGISTRY.register("diamond_metal_hoe", () -> new DiamondMetalHoeItem());
+	public static final RegistryObject<Item> DIAMOND_METAL_AXE = REGISTRY.register("diamond_metal_axe", () -> new DiamondMetalAxeItem());
+	public static final RegistryObject<Item> DIAMOND_METAL_SWORD = REGISTRY.register("diamond_metal_sword", () -> new DiamondMetalSwordItem());
+	public static final RegistryObject<Item> DIAMOND_METAL_PAXEL = REGISTRY.register("diamond_metal_paxel", () -> new DiamondMetalPaxelItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -103,6 +103,70 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_rod_recipe"
+    },
+    {
+      "name": "DiamondMetalRod",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_rod"
+    },
+    {
+      "name": "DiamondMetalRodRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_rod_recipe"
+    },
+    {
+      "name": "DiamondMetalCasingRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_casing_recipe"
+    },
+    {
+      "name": "DiamondMetalPickaxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_pickaxe"
+    },
+    {
+      "name": "DiamondMetalShovel",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_shovel"
+    },
+    {
+      "name": "DiamondMetalHoe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_hoe"
+    },
+    {
+      "name": "DiamondMetalAxe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_axe"
+    },
+    {
+      "name": "DiamondMetalSword",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_sword"
     }
   ],
   "variable_elements": [],
@@ -110,13 +174,19 @@
   "language_map": {
     "en_us": {
       "item.advancedmachinery.diamond_rod": "Diamond Rod",
+      "item.advancedmachinery.diamond_metal_sword": "Diamond Metal Sword",
       "block.advancedmachinery.diamond_metal_block": "Diamond Metal Block",
-      "block.advancedmachinery.diamond_machine_casing": "Iron Machine Casing",
+      "block.advancedmachinery.diamond_machine_casing": "Diamond Machine Casing",
       "item.advancedmachinery.iron_rod": "Iron Rod",
-      "block.advancedmachinery.diamond_metal_machine_casing": "Iron Machine Casing",
+      "item.advancedmachinery.diamond_metal_axe": "Diamond Metal Axe",
+      "item.advancedmachinery.diamond_metal_rod": "Diamond Metal Rod",
+      "item.advancedmachinery.diamond_metal_pickaxe": "Diamond Metal Pickaxe",
+      "item.advancedmachinery.diamond_metal_hoe": "Diamond Metal Hoe",
+      "block.advancedmachinery.diamond_metal_machine_casing": "Diamond Metal Machine Casing",
       "block.advancedmachinery.iron_machine_casing": "Iron Machine Casing",
       "item.dreamybull.ingot_1": "Ingot 1",
-      "item.advancedmachinery.ingot_1": "Diamond Metal Ingot"
+      "item.advancedmachinery.ingot_1": "Diamond Metal Ingot",
+      "item.advancedmachinery.diamond_metal_shovel": "Diamond Metal Shovel"
     }
   },
   "foldersRoot": {
