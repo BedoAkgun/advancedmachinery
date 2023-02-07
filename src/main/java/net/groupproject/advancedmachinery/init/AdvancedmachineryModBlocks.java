@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.groupproject.advancedmachinery.block.MixerBlock;
 import net.groupproject.advancedmachinery.block.IronMachineCasingBlock;
 import net.groupproject.advancedmachinery.block.DiamondMetalMachineCasingBlock;
 import net.groupproject.advancedmachinery.block.DiamondMetalBlockBlock;
@@ -24,4 +25,5 @@ public class AdvancedmachineryModBlocks {
 			() -> new DiamondMachineCasingBlock());
 	public static final RegistryObject<Block> DIAMOND_METAL_MACHINE_CASING = REGISTRY.register("diamond_metal_machine_casing",
 			() -> new DiamondMetalMachineCasingBlock());
+	public static final RegistryObject<Block> MIXER = REGISTRY.register("mixer", () -> new MixerBlock());
 }

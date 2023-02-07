@@ -6,7 +6,7 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 2,
-    "group": "advanced_machinery",
+    "group": "advancedmachinery",
     "recipeShapeless": true,
     "recipeSlots": [
       {
@@ -19,10 +19,10 @@
         "value": ""
       },
       {
-        "value": "Items.DIAMOND"
+        "value": ""
       },
       {
-        "value": "Items.NETHERITE_SCRAP"
+        "value": "CUSTOM:DiamondScrapMixture"
       },
       {
         "value": "Items.IRON_INGOT"

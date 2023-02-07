@@ -34,6 +34,7 @@ import net.groupproject.advancedmachinery.init.AdvancedmachineryModSounds;
 import net.groupproject.advancedmachinery.init.AdvancedmachineryModMenus;
 import net.groupproject.advancedmachinery.init.AdvancedmachineryModItems;
 import net.groupproject.advancedmachinery.init.AdvancedmachineryModBlocks;
+import net.groupproject.advancedmachinery.init.AdvancedmachineryModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -54,6 +55,8 @@ public class AdvancedmachineryMod {
 		AdvancedmachineryModSounds.REGISTRY.register(bus);
 		AdvancedmachineryModBlocks.REGISTRY.register(bus);
 		AdvancedmachineryModItems.REGISTRY.register(bus);
+
+		AdvancedmachineryModBlockEntities.REGISTRY.register(bus);
 
 		AdvancedmachineryModMenus.REGISTRY.register(bus);
 

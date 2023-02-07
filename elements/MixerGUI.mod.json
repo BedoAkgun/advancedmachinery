@@ -22,14 +22,106 @@
           "x": 187,
           "y": 40
         }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 142,
+          "y": 55
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 142,
+          "y": 92
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 270,
+          "y": 73
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Mix",
+          "onClick": {
+            "name": "MixerMix"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Mix",
+          "x": 195,
+          "y": 72
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Gem",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Gem",
+          "x": 143,
+          "y": 111
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Scrap",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Scrap",
+          "x": 139,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Output",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Output",
+          "x": 262,
+          "y": 59
+        }
       }
     ],
     "gridSettings": {
-      "sx": 16,
+      "sx": 24,
       "sy": 16,
-      "ox": 5,
-      "oy": 15,
-      "snapOnGrid": true
+      "ox": 20,
+      "oy": 7,
+      "snapOnGrid": false
     }
   }
 }

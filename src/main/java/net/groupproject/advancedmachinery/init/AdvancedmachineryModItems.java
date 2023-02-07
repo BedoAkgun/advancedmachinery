@@ -17,6 +17,7 @@ import net.groupproject.advancedmachinery.item.RuskoEverydayDiscItem;
 import net.groupproject.advancedmachinery.item.IronRodItem;
 import net.groupproject.advancedmachinery.item.Ingot1Item;
 import net.groupproject.advancedmachinery.item.InfiniumItem;
+import net.groupproject.advancedmachinery.item.DiamondScrapMixtureItem;
 import net.groupproject.advancedmachinery.item.DiamondRodItem;
 import net.groupproject.advancedmachinery.item.DiamondMetalSwordItem;
 import net.groupproject.advancedmachinery.item.DiamondMetalShovelItem;
@@ -49,6 +50,8 @@ public class AdvancedmachineryModItems {
 	public static final RegistryObject<Item> DIAMOND_METAL_PAXEL = REGISTRY.register("diamond_metal_paxel", () -> new DiamondMetalPaxelItem());
 	public static final RegistryObject<Item> INFINIUM = REGISTRY.register("infinium", () -> new InfiniumItem());
 	public static final RegistryObject<Item> RUSKO_EVERYDAY_DISC = REGISTRY.register("rusko_everyday_disc", () -> new RuskoEverydayDiscItem());
+	public static final RegistryObject<Item> MIXER = block(AdvancedmachineryModBlocks.MIXER, AdvancedmachineryModTabs.TAB_ADVANCED_MACHIBERY);
+	public static final RegistryObject<Item> DIAMOND_SCRAP_MIXTURE = REGISTRY.register("diamond_scrap_mixture", () -> new DiamondScrapMixtureItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -1,12 +1,9 @@
 {
-  "group": "advanced_machinery",
+  "group": "advancedmachinery",
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond"
-    },
-    {
-      "item": "minecraft:netherite_scrap"
+      "item": "advancedmachinery:diamond_scrap_mixture"
     },
     {
       "item": "minecraft:iron_ingot"

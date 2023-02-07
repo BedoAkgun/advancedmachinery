@@ -7,9 +7,12 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.groupproject.advancedmachinery.world.inventory.MixerGUIMenu;
+import net.groupproject.advancedmachinery.network.MixerGUIButtonMessage;
+import net.groupproject.advancedmachinery.AdvancedmachineryMod;
 
 import java.util.HashMap;
 
@@ -69,6 +72,9 @@ public class MixerGUIScreen extends AbstractContainerScreen<MixerGUIMenu> {
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "Item Mixer", 61, 3, -16777216);
+		this.font.draw(poseStack, "Gem", 17, 74, -12829636);
+		this.font.draw(poseStack, "Scrap", 13, 7, -12829636);
+		this.font.draw(poseStack, "Output", 136, 22, -12829636);
 	}
 
 	@Override
@@ -81,5 +87,11 @@ public class MixerGUIScreen extends AbstractContainerScreen<MixerGUIMenu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
+		this.addRenderableWidget(new Button(this.leftPos + 69, this.topPos + 35, 40, 20, Component.literal("Mix"), e -> {
+			if (true) {
+				AdvancedmachineryMod.PACKET_HANDLER.sendToServer(new MixerGUIButtonMessage(0, x, y, z));
+				MixerGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		}));
 	}
 }

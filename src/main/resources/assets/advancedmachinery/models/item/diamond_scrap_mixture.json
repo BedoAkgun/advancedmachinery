@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "advancedmachinery:items/bone_meal_je3_be3"
+  }
+}
