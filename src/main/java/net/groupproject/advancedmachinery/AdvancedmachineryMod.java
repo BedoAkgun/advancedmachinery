@@ -29,6 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.groupproject.advancedmachinery.init.AdvancedmachineryModTabs;
+import net.groupproject.advancedmachinery.init.AdvancedmachineryModSounds;
+import net.groupproject.advancedmachinery.init.AdvancedmachineryModMenus;
 import net.groupproject.advancedmachinery.init.AdvancedmachineryModItems;
 import net.groupproject.advancedmachinery.init.AdvancedmachineryModBlocks;
 
@@ -46,11 +49,13 @@ public class AdvancedmachineryMod {
 
 	public AdvancedmachineryMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
+		AdvancedmachineryModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		AdvancedmachineryModSounds.REGISTRY.register(bus);
 		AdvancedmachineryModBlocks.REGISTRY.register(bus);
 		AdvancedmachineryModItems.REGISTRY.register(bus);
+
+		AdvancedmachineryModMenus.REGISTRY.register(bus);
 
 	}
 

@@ -1,0 +1,27 @@
+{
+  "group": "advancedmachinery",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 ",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "advancedmachinery:ingot_1"
+    },
+    "1": {
+      "item": "advancedmachinery:ingot_1"
+    },
+    "2": {
+      "item": "advancedmachinery:iron_rod"
+    },
+    "4": {
+      "item": "advancedmachinery:iron_rod"
+    }
+  },
+  "result": {
+    "item": "advancedmachinery:diamond_metal_hoe",
+    "count": 1
+  }
+}

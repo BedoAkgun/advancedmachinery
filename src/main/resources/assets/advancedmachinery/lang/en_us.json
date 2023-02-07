@@ -1,10 +1,11 @@
 {
-  "item.advancedmachinery.diamond_rod": "Diamond Rod",
   "item.advancedmachinery.diamond_metal_sword": "Diamond Metal Sword",
+  "item.advancedmachinery.diamond_rod": "Diamond Rod",
   "block.advancedmachinery.diamond_metal_block": "Diamond Metal Block",
   "block.advancedmachinery.diamond_machine_casing": "Diamond Machine Casing",
-  "item.advancedmachinery.iron_rod": "Iron Rod",
+  "item.advancedmachinery.infinium": "Infinium",
   "item.advancedmachinery.diamond_metal_axe": "Diamond Metal Axe",
+  "item.advancedmachinery.iron_rod": "Iron Rod",
   "item.advancedmachinery.diamond_metal_paxel": "Diamond Metal Paxel",
   "item.advancedmachinery.diamond_metal_rod": "Diamond Metal Rod",
   "item.advancedmachinery.diamond_metal_pickaxe": "Diamond Metal Pickaxe",
@@ -13,5 +14,9 @@
   "block.advancedmachinery.iron_machine_casing": "Iron Machine Casing",
   "item.dreamybull.ingot_1": "Ingot 1",
   "item.advancedmachinery.ingot_1": "Diamond Metal Ingot",
-  "item.advancedmachinery.diamond_metal_shovel": "Diamond Metal Shovel"
+  "item.advancedmachinery.rusko_everyday_disc": "Music Disc (Rusko - Everyday)",
+  "item.advancedmachinery.rusko_everyday_disc.desc": "Rusko - Everyday (NetSky Remix)",
+  "item.advancedmachinery.diamond_metal_shovel": "Diamond Metal Shovel",
+  "itemGroup.tabadvanced_machibery": "Advanced Machinery",
+  "subtitles.rusko_netsky_audio": "The sun is shining everyday"
 }

@@ -1,0 +1,35 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Item Mixer",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Item Mixer",
+          "x": 187,
+          "y": 40
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 16,
+      "sy": 16,
+      "ox": 5,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

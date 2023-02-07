@@ -8,7 +8,7 @@
     "name": "Diamond Rod",
     "rarity": "RARE",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:AdvancedMachibery"
     },
     "stackSize": 64,
     "enchantability": 0,

@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "advancedmachinery:items/diamondmetalpickaxe"
+    "layer0": "advancedmachinery:items/diamondmetalpickaxe2"
   }
 }

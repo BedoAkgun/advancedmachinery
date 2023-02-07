@@ -1,0 +1,12 @@
+{
+  "rusko_netsky_audio": {
+    "category": "music",
+    "subtitle": "subtitles.rusko_netsky_audio",
+    "sounds": [
+      {
+        "name": "advancedmachinery:y2mate.com-rusko-everyday-netsky-remix-real-racing-3-ost_320kbps",
+        "stream": true
+      }
+    ]
+  }
+}

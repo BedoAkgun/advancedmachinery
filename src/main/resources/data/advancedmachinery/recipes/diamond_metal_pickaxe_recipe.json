@@ -1,0 +1,30 @@
+{
+  "group": "advancedmachinery",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "advancedmachinery:ingot_1"
+    },
+    "1": {
+      "item": "advancedmachinery:ingot_1"
+    },
+    "2": {
+      "item": "advancedmachinery:ingot_1"
+    },
+    "4": {
+      "item": "advancedmachinery:iron_rod"
+    },
+    "7": {
+      "item": "advancedmachinery:iron_rod"
+    }
+  },
+  "result": {
+    "item": "advancedmachinery:diamond_metal_pickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "advancedmachinery",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Ingot1"
+      },
+      {
+        "value": "CUSTOM:Ingot1"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Ingot1"
+      },
+      {
+        "value": "CUSTOM:IronRod"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IronRod"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DiamondMetalAxe"
+    },
+    "name": "diamond_metal_axe_recipe",
+    "namespace": "mod"
+  }
+}
