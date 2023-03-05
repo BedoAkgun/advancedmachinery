@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "advancedmachinery:blocks/infiniumore",
+    "particle": "advancedmachinery:blocks/infiniumore"
+  },
+  "render_type": "solid"
+}

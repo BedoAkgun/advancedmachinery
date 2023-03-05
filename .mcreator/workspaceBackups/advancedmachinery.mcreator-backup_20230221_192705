@@ -1,0 +1,443 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ingot1",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingot_1"
+    },
+    {
+      "name": "DiamondMetalBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_block"
+    },
+    {
+      "name": "DiamondMetalToBlock",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_to_block"
+    },
+    {
+      "name": "IronMachineCasing",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_machine_casing"
+    },
+    {
+      "name": "DiamondMachineCasing",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_machine_casing"
+    },
+    {
+      "name": "DiamondMetalMachineCasing",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_machine_casing"
+    },
+    {
+      "name": "IronCasingRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_casing_recipe"
+    },
+    {
+      "name": "IronRod",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_rod"
+    },
+    {
+      "name": "IronRodCrafting",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_rod_crafting"
+    },
+    {
+      "name": "DiamondRod",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_rod"
+    },
+    {
+      "name": "DiamondCasingRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_casing_recipe"
+    },
+    {
+      "name": "DiamondRodRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_rod_recipe"
+    },
+    {
+      "name": "DiamondMetalRod",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_rod"
+    },
+    {
+      "name": "DiamondMetalRodRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_rod_recipe"
+    },
+    {
+      "name": "DiamondMetalCasingRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_casing_recipe"
+    },
+    {
+      "name": "DiamondMetalPickaxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_pickaxe"
+    },
+    {
+      "name": "DiamondMetalShovel",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_shovel"
+    },
+    {
+      "name": "DiamondMetalHoe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_hoe"
+    },
+    {
+      "name": "DiamondMetalAxe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_axe"
+    },
+    {
+      "name": "DiamondMetalSword",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_sword"
+    },
+    {
+      "name": "DiamondMetalPaxel",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_paxel"
+    },
+    {
+      "name": "DiamondMetalPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_pickaxe_recipe"
+    },
+    {
+      "name": "DiamondMetalShovelRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_shovel_recipe"
+    },
+    {
+      "name": "DiamondMetalHoeRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_hoe_recipe"
+    },
+    {
+      "name": "DiamondMetalHoeRecipe2",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_hoe_recipe_2"
+    },
+    {
+      "name": "DiamondMetalAxeRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_axe_recipe"
+    },
+    {
+      "name": "DiamondMetalAxeRecipe2",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_axe_recipe_2"
+    },
+    {
+      "name": "DiamondMetalSwordRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_sword_recipe"
+    },
+    {
+      "name": "DiamondMetalPaxelRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_metal_paxel_recipe"
+    },
+    {
+      "name": "AdvancedMachibery",
+      "type": "tab",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_machibery"
+    },
+    {
+      "name": "Infinium",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinium"
+    },
+    {
+      "name": "MixerGUI",
+      "type": "gui",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixer_gui"
+    },
+    {
+      "name": "Mixer",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixer"
+    },
+    {
+      "name": "MixerMix",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixer_mix",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiamondScrapMixture",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_scrap_mixture"
+    },
+    {
+      "name": "MixerBlockRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixer_block_recipe"
+    },
+    {
+      "name": "InfiniumOre",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinium_ore"
+    },
+    {
+      "name": "CoaterGUI",
+      "type": "gui",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coater_gui"
+    },
+    {
+      "name": "RedstoneCoatedIron",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_coated_iron"
+    },
+    {
+      "name": "CoaterCoat",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coater_coat",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Coater",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coater"
+    },
+    {
+      "name": "RefinedRedstone",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_redstone"
+    },
+    {
+      "name": "RefinedRedstoneBlock",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_redstone_block"
+    },
+    {
+      "name": "RefinedRedstoneBlockRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_redstone_block_recipe"
+    },
+    {
+      "name": "CoaterRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coater_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "rusko_netsky_audio",
+      "files": [
+        "y2mate.com-rusko-everyday-netsky-remix-real-racing-3-ost_320kbps"
+      ],
+      "category": "music",
+      "subtitle": "The sun is shining everyday"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.advancedmachinery.diamond_metal_sword": "Diamond Metal Sword",
+      "block.advancedmachinery.coater": "Coater",
+      "item.advancedmachinery.iron_rod": "Iron Rod",
+      "item.advancedmachinery.diamond_metal_paxel": "Diamond Metal Paxel",
+      "item.advancedmachinery.diamond_metal_pickaxe": "Diamond Metal Pickaxe",
+      "item.advancedmachinery.diamond_metal_hoe": "Diamond Metal Hoe",
+      "block.advancedmachinery.diamond_metal_machine_casing": "Diamond Metal Machine Casing",
+      "block.advancedmachinery.infinium_ore": "Infinium Ore",
+      "item.advancedmachinery.refined_redstone": "Refined Redstone",
+      "block.advancedmachinery.iron_machine_casing": "Iron Machine Casing",
+      "item.advancedmachinery.diamond_scrap_mixture": "Diamond Scrap Mixture",
+      "item.advancedmachinery.diamond_metal_shovel": "Diamond Metal Shovel",
+      "itemGroup.tabadvanced_machibery": "Advanced Machinery",
+      "subtitles.rusko_netsky_audio": "The sun is shining everyday",
+      "block.advancedmachinery.refined_redstone_block": "Refined Redstone Block",
+      "item.advancedmachinery.diamond_rod": "Diamond Rod",
+      "block.advancedmachinery.diamond_metal_block": "Diamond Metal Block",
+      "block.advancedmachinery.diamond_machine_casing": "Diamond Machine Casing",
+      "item.advancedmachinery.infinium": "Infinium",
+      "item.advancedmachinery.diamond_metal_axe": "Diamond Metal Axe",
+      "item.advancedmachinery.diamond_metal_rod": "Diamond Metal Rod",
+      "item.advancedmachinery.redstone_coated_iron": "Redstone Coated Iron",
+      "item.dreamybull.ingot_1": "Ingot 1",
+      "item.advancedmachinery.ingot_1": "Diamond Metal Ingot",
+      "block.advancedmachinery.mixer": "Mixer"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "advancedmachinery",
+    "modName": "Advanced Machinery",
+    "version": "1.0.0",
+    "author": "Bedirhan Akgün",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.groupproject.advancedmachinery",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

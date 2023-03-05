@@ -5,6 +5,10 @@
     "advancedmachinery:iron_machine_casing",
     "advancedmachinery:diamond_machine_casing",
     "advancedmachinery:diamond_metal_machine_casing",
-    "advancedmachinery:mixer"
+    "advancedmachinery:mixer",
+    "advancedmachinery:infinium_ore",
+    "advancedmachinery:coater",
+    "advancedmachinery:refined_redstone_block",
+    "advancedmachinery:compressor"
   ]
 }

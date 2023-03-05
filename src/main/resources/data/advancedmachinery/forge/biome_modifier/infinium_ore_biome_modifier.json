@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "advancedmachinery:infinium_ore",
+  "step": "underground_ores"
+}

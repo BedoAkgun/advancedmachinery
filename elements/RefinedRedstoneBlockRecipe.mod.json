@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "refinedredstoneblock",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RefinedRedstone"
+      },
+      {
+        "value": "CUSTOM:RefinedRedstone"
+      },
+      {
+        "value": "CUSTOM:RefinedRedstone"
+      },
+      {
+        "value": "CUSTOM:RefinedRedstone"
+      },
+      {
+        "value": "CUSTOM:RefinedRedstone"
+      },
+      {
+        "value": "CUSTOM:RefinedRedstone"
+      },
+      {
+        "value": "CUSTOM:RefinedRedstone"
+      },
+      {
+        "value": "CUSTOM:RefinedRedstone"
+      },
+      {
+        "value": "CUSTOM:RefinedRedstone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RefinedRedstoneBlock"
+    },
+    "name": "refined_redstone_block_recipe",
+    "namespace": "mod"
+  }
+}

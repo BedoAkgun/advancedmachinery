@@ -1,0 +1,42 @@
+{
+  "group": "coater",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "advancedmachinery:iron_machine_casing"
+    },
+    "1": {
+      "item": "advancedmachinery:refined_redstone_block"
+    },
+    "2": {
+      "item": "advancedmachinery:iron_machine_casing"
+    },
+    "3": {
+      "item": "advancedmachinery:refined_redstone_block"
+    },
+    "4": {
+      "item": "advancedmachinery:mixer"
+    },
+    "5": {
+      "item": "advancedmachinery:refined_redstone_block"
+    },
+    "6": {
+      "item": "advancedmachinery:iron_machine_casing"
+    },
+    "7": {
+      "item": "advancedmachinery:refined_redstone_block"
+    },
+    "8": {
+      "item": "advancedmachinery:iron_machine_casing"
+    }
+  },
+  "result": {
+    "item": "advancedmachinery:coater",
+    "count": 1
+  }
+}

@@ -75,11 +75,11 @@ public class MixerGUIMenu extends AbstractContainerMenu implements Supplier<Map<
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 17, 19) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 22, 29) {
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 17, 56) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 22, 56) {
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 145, 37) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 147, 41) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
@@ -87,9 +87,9 @@ public class MixerGUIMenu extends AbstractContainerMenu implements Supplier<Map<
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
-				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
+				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 1 + 8 + sj * 18, 8 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
-			this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 0 + 142));
+			this.addSlot(new Slot(inv, si, 1 + 8 + si * 18, 8 + 142));
 	}
 
 	@Override

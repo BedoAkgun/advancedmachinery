@@ -13,7 +13,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
-import net.groupproject.advancedmachinery.item.RuskoEverydayDiscItem;
+import net.groupproject.advancedmachinery.item.RefinedRedstoneItem;
+import net.groupproject.advancedmachinery.item.RedstoneCoatedIronItem;
 import net.groupproject.advancedmachinery.item.IronRodItem;
 import net.groupproject.advancedmachinery.item.Ingot1Item;
 import net.groupproject.advancedmachinery.item.InfiniumItem;
@@ -49,9 +50,16 @@ public class AdvancedmachineryModItems {
 	public static final RegistryObject<Item> DIAMOND_METAL_SWORD = REGISTRY.register("diamond_metal_sword", () -> new DiamondMetalSwordItem());
 	public static final RegistryObject<Item> DIAMOND_METAL_PAXEL = REGISTRY.register("diamond_metal_paxel", () -> new DiamondMetalPaxelItem());
 	public static final RegistryObject<Item> INFINIUM = REGISTRY.register("infinium", () -> new InfiniumItem());
-	public static final RegistryObject<Item> RUSKO_EVERYDAY_DISC = REGISTRY.register("rusko_everyday_disc", () -> new RuskoEverydayDiscItem());
 	public static final RegistryObject<Item> MIXER = block(AdvancedmachineryModBlocks.MIXER, AdvancedmachineryModTabs.TAB_ADVANCED_MACHIBERY);
 	public static final RegistryObject<Item> DIAMOND_SCRAP_MIXTURE = REGISTRY.register("diamond_scrap_mixture", () -> new DiamondScrapMixtureItem());
+	public static final RegistryObject<Item> INFINIUM_ORE = block(AdvancedmachineryModBlocks.INFINIUM_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> COATER = block(AdvancedmachineryModBlocks.COATER, AdvancedmachineryModTabs.TAB_ADVANCED_MACHIBERY);
+	public static final RegistryObject<Item> REDSTONE_COATED_IRON = REGISTRY.register("redstone_coated_iron", () -> new RedstoneCoatedIronItem());
+	public static final RegistryObject<Item> REFINED_REDSTONE = REGISTRY.register("refined_redstone", () -> new RefinedRedstoneItem());
+	public static final RegistryObject<Item> REFINED_REDSTONE_BLOCK = block(AdvancedmachineryModBlocks.REFINED_REDSTONE_BLOCK,
+			AdvancedmachineryModTabs.TAB_ADVANCED_MACHIBERY);
+	public static final RegistryObject<Item> COMPRESSOR = block(AdvancedmachineryModBlocks.COMPRESSOR,
+			AdvancedmachineryModTabs.TAB_ADVANCED_MACHIBERY);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

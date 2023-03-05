@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "advancedmachinery:block/refined_redstone_block"
+    }
+  }
+}

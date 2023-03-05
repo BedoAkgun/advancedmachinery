@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "advancedmachinery:block/coater"
+    },
+    "facing=east": {
+      "model": "advancedmachinery:block/coater",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "advancedmachinery:block/coater",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "advancedmachinery:block/coater",
+      "y": 270
+    }
+  }
+}

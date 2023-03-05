@@ -32,8 +32,8 @@ public class MixerGUIScreen extends AbstractContainerScreen<MixerGUIMenu> {
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 176;
-		this.imageHeight = 166;
+		this.imageWidth = 178;
+		this.imageHeight = 182;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("advancedmachinery:textures/screens/mixer_gui.png");
@@ -52,6 +52,10 @@ public class MixerGUIScreen extends AbstractContainerScreen<MixerGUIMenu> {
 		RenderSystem.defaultBlendFunc();
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("advancedmachinery:textures/screens/arrow.png"));
+		this.blit(ms, this.leftPos + 85, this.topPos + 41, 0, 0, 60, 16, 60, 16);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -71,10 +75,7 @@ public class MixerGUIScreen extends AbstractContainerScreen<MixerGUIMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "Item Mixer", 61, 3, -16777216);
-		this.font.draw(poseStack, "Gem", 17, 74, -12829636);
-		this.font.draw(poseStack, "Scrap", 13, 7, -12829636);
-		this.font.draw(poseStack, "Output", 136, 22, -12829636);
+		this.font.draw(poseStack, "Item Mixer", 62, 4, -16777216);
 	}
 
 	@Override
@@ -87,7 +88,7 @@ public class MixerGUIScreen extends AbstractContainerScreen<MixerGUIMenu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 69, this.topPos + 35, 40, 20, Component.literal("Mix"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 44, this.topPos + 38, 40, 20, Component.literal("Mix"), e -> {
 			if (true) {
 				AdvancedmachineryMod.PACKET_HANDLER.sendToServer(new MixerGUIButtonMessage(0, x, y, z));
 				MixerGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "advancedmachinery:blocks/mixerleft",
+    "up": "advancedmachinery:blocks/mixerleft",
+    "north": "advancedmachinery:blocks/compactor",
+    "east": "advancedmachinery:blocks/mixerleft",
+    "south": "advancedmachinery:blocks/mixerleft",
+    "west": "advancedmachinery:blocks/mixerleft",
+    "particle": "advancedmachinery:blocks/mixerleft"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,42 @@
+{
+  "group": "refinedredstoneblock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "advancedmachinery:refined_redstone"
+    },
+    "1": {
+      "item": "advancedmachinery:refined_redstone"
+    },
+    "2": {
+      "item": "advancedmachinery:refined_redstone"
+    },
+    "3": {
+      "item": "advancedmachinery:refined_redstone"
+    },
+    "4": {
+      "item": "advancedmachinery:refined_redstone"
+    },
+    "5": {
+      "item": "advancedmachinery:refined_redstone"
+    },
+    "6": {
+      "item": "advancedmachinery:refined_redstone"
+    },
+    "7": {
+      "item": "advancedmachinery:refined_redstone"
+    },
+    "8": {
+      "item": "advancedmachinery:refined_redstone"
+    }
+  },
+  "result": {
+    "item": "advancedmachinery:refined_redstone_block",
+    "count": 1
+  }
+}

@@ -10,11 +10,15 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.groupproject.advancedmachinery.block.RefinedRedstoneBlockBlock;
 import net.groupproject.advancedmachinery.block.MixerBlock;
 import net.groupproject.advancedmachinery.block.IronMachineCasingBlock;
+import net.groupproject.advancedmachinery.block.InfiniumOreBlock;
 import net.groupproject.advancedmachinery.block.DiamondMetalMachineCasingBlock;
 import net.groupproject.advancedmachinery.block.DiamondMetalBlockBlock;
 import net.groupproject.advancedmachinery.block.DiamondMachineCasingBlock;
+import net.groupproject.advancedmachinery.block.CompressorBlock;
+import net.groupproject.advancedmachinery.block.CoaterBlock;
 import net.groupproject.advancedmachinery.AdvancedmachineryMod;
 
 public class AdvancedmachineryModBlocks {
@@ -26,4 +30,9 @@ public class AdvancedmachineryModBlocks {
 	public static final RegistryObject<Block> DIAMOND_METAL_MACHINE_CASING = REGISTRY.register("diamond_metal_machine_casing",
 			() -> new DiamondMetalMachineCasingBlock());
 	public static final RegistryObject<Block> MIXER = REGISTRY.register("mixer", () -> new MixerBlock());
+	public static final RegistryObject<Block> INFINIUM_ORE = REGISTRY.register("infinium_ore", () -> new InfiniumOreBlock());
+	public static final RegistryObject<Block> COATER = REGISTRY.register("coater", () -> new CoaterBlock());
+	public static final RegistryObject<Block> REFINED_REDSTONE_BLOCK = REGISTRY.register("refined_redstone_block",
+			() -> new RefinedRedstoneBlockBlock());
+	public static final RegistryObject<Block> COMPRESSOR = REGISTRY.register("compressor", () -> new CompressorBlock());
 }

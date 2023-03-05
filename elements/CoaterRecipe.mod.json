@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "coater",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:IronMachineCasing"
+      },
+      {
+        "value": "CUSTOM:RefinedRedstoneBlock"
+      },
+      {
+        "value": "CUSTOM:IronMachineCasing"
+      },
+      {
+        "value": "CUSTOM:RefinedRedstoneBlock"
+      },
+      {
+        "value": "CUSTOM:Mixer"
+      },
+      {
+        "value": "CUSTOM:RefinedRedstoneBlock"
+      },
+      {
+        "value": "CUSTOM:IronMachineCasing"
+      },
+      {
+        "value": "CUSTOM:RefinedRedstoneBlock"
+      },
+      {
+        "value": "CUSTOM:IronMachineCasing"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Coater"
+    },
+    "name": "coater_recipe",
+    "namespace": "mod"
+  }
+}
